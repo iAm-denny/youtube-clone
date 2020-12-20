@@ -1,0 +1,11 @@
+POST http://localhost:4000/video/readnotification
+content-type: application/json
+authorization: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX2lkIjoiNWVkYjFlNjAtNDhmZC00ODJhLWE2MjQtNmFkNzg4NjZhYjAxIiwiaWF0IjoxNjA4NDUxNTQyLCJleHAiOjE2MDkwNTYzNDJ9.N1KGXmTvO4x9yx520gQQYzD7nlIAmFQPW6GhXF60RJc
+
+{
+
+}
+
+
+
+

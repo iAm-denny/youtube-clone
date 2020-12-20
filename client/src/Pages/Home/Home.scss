@@ -1,0 +1,50 @@
+.video-container {
+    display: grid;
+    grid-template-columns:  repeat(4, 1fr);
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 80px;
+    gap: 15px; 
+
+    .video {
+        cursor: pointer;
+        background-color: #202020;
+        padding: 15px;
+        border-radius: 10px;
+    }
+    .video a{
+        text-decoration: none; color: #fff;
+        cursor: pointer;
+        position: relative;
+        z-index: 0;
+    }
+    .user {
+        display: flex;
+        align-items: center;
+        overflow: hidden;
+
+        .profile img{
+            width: 50px;
+            height: 50px;
+            border-radius:50% ;
+            margin-right: 10px;
+    }
+    .title {
+        font-size: 17px;
+        overflow: hidden;
+        width: 100%;
+        height: 20px;
+    }
+
+    .user_name, .timestamp {
+        color: #c4c4c4;
+        font-size: 14px;
+    }
+    .user_name {
+        font-weight: bold;
+        font-style: italic;
+        font-size: 16px;
+    }
+}
+}
+
